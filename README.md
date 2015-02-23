@@ -32,12 +32,12 @@ You can change the settings in server/config/config.js file
 
 ###### *Create User*
 
-POST: http://localhost:8000/user
+	POST: http://localhost:8000/user
 
-{
-"userId": "www.cronj.com",
-"username": "gaurav_bng@hotmail.com"
-}
+	{
+	"userId": "www.cronj.com",
+	"username": "gaurav_bng@hotmail.com"
+	}
 
 ###### *Get All Users*
 
@@ -68,12 +68,12 @@ POST: http://localhost:8000/user
 
 ### Other Usefull Link
 
-	[Visit Blog For Explanation] (http://cronj.com/blog/hapi-mongoose/)
+[Visit Blog For Explanation] (http://cronj.com/blog/hapi-mongoose/)
 
-	[Can also look into Hapi File Upload And Download for all type] (https://github.com/Cron-J/Hapi-file-upload-download)
+[Can also look into Hapi File Upload And Download for all type] (https://github.com/Cron-J/Hapi-file-upload-download)
 
-	[Express-Mongoose-Angular] (https://github.com/Cron-J/Express-file-upload-download)
+[Express-Mongoose-Angular] (https://github.com/Cron-J/Express-file-upload-download)
 
-	[JWT-Hapi-Mongoose-Mongodb-with-email-verification-and-forgot-password] (https://github.com/Cron-J/JWT-Hapi-Mongoose-Mongodb-with-email-verification-and-forgot-password)
+[JWT-Hapi-Mongoose-Mongodb-with-email-verification-and-forgot-password] (https://github.com/Cron-J/JWT-Hapi-Mongoose-Mongodb-with-email-verification-and-forgot-password)
 
 
