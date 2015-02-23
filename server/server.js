@@ -7,7 +7,12 @@ var Hapi = require('hapi'),
 var app = {};
 app.config = Config;
 
-var server = Hapi.createServer(app.config.server.host, app.config.server.port, {cors: true});
+//For older version of hapi.js
+//var server = Hapi.createServer(app.config.server.host, app.config.server.port, {cors: true});
+
+var server = new Hapi.Server();
+
+server.connection({ port: app.config.server.port });
 
 server.route(Routes.endpoints);
 

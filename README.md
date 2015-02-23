@@ -28,4 +28,12 @@ You can see the port number in command prompt after sucessfull run
 
 You can change the settings in server/config/config.js file
 
+[Visit Blog For Explanation] (http://cronj.com/blog/hapi-mongoose/)
+
+[Can also look into Hapi File Upload And Download for all type] (https://github.com/Cron-J/Hapi-file-upload-download)
+
+[Express-Mongoose-Angular] (https://github.com/Cron-J/Express-file-upload-download)
+
+[JWT-Hapi-Mongoose-Mongodb-with-email-verification-and-forgot-password] (https://github.com/Cron-J/JWT-Hapi-Mongoose-Mongodb-with-email-verification-and-forgot-password)
+
 
