@@ -11,5 +11,15 @@
     "hapi": "^8.2.0",
     "joi": "^5.1.0",
     "mongoose": "^3.8.23"
+  },
+  "keywords": [
+    "node.js",
+    "hapi.js",
+    "mongoose",
+    "angular"
+  ],
+  "author": {
+    "name": "gaurav gupta",
+    "email": "gaurav_bng@hotmail.com"
   }
 }
