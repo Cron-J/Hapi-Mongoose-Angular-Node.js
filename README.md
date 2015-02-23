@@ -41,39 +41,39 @@ POST: http://localhost:8000/user
 
 ###### *Get All Users*
 
-GET: http://localhost:8000/user
+	GET: http://localhost:8000/user
 
 ###### *Get User By userId*
 
-GET:  http://localhost:8000/user/{userId}
+	GET:  http://localhost:8000/user/{userId}
       
       Example : http://localhost:8000/user/www.cronj.com
 
 ###### *Update User By userId*
 
-PUT: http://localhost:8000/user/{userId}
+	PUT: http://localhost:8000/user/{userId}
 
      Example : http://localhost:8000/user/www.cronj.com
 
-{
-"username": "gaurav@cronj.com"
-}
+	{
+	"username": "gaurav@cronj.com"
+	}
 
 ###### *Delete User By userId*
 
-DELETE: http://localhost:8000/user/{userId}
+	DELETE: http://localhost:8000/user/{userId}
 
-		Example : http://localhost:8000/user/www.cronj.com
+			Example : http://localhost:8000/user/www.cronj.com
 
 
 ### Other Usefull Link
 
-[Visit Blog For Explanation] (http://cronj.com/blog/hapi-mongoose/)
+	[Visit Blog For Explanation] (http://cronj.com/blog/hapi-mongoose/)
 
-[Can also look into Hapi File Upload And Download for all type] (https://github.com/Cron-J/Hapi-file-upload-download)
+	[Can also look into Hapi File Upload And Download for all type] (https://github.com/Cron-J/Hapi-file-upload-download)
 
-[Express-Mongoose-Angular] (https://github.com/Cron-J/Express-file-upload-download)
+	[Express-Mongoose-Angular] (https://github.com/Cron-J/Express-file-upload-download)
 
-[JWT-Hapi-Mongoose-Mongodb-with-email-verification-and-forgot-password] (https://github.com/Cron-J/JWT-Hapi-Mongoose-Mongodb-with-email-verification-and-forgot-password)
+	[JWT-Hapi-Mongoose-Mongodb-with-email-verification-and-forgot-password] (https://github.com/Cron-J/JWT-Hapi-Mongoose-Mongodb-with-email-verification-and-forgot-password)
 
 
