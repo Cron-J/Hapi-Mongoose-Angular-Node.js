@@ -1,6 +1,7 @@
 var Joi = require('joi'),
     Boom = require('boom'),
-    User = require('../model/user').User;
+    User = require('../model/user').User,
+    mongoose = require('mongoose');
 
 
 exports.getAll = {
@@ -94,3 +95,14 @@ exports.remove = {
   }
 };
 
+exports.removeAll = {
+  handler: function (request, reply) {
+    mongoose.connection.db.dropCollection('users', function(err, result) {
+      if (!err) reply({ message: "User database successfully deleted"});
+      else{
+          console.log(err);
+          reply(Boom.badRequest("Could not delete user"));
+      }
+    });
+  }
+};

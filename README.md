@@ -65,6 +65,12 @@ You can change the settings in server/config/config.js file
 
 			Example : http://localhost:8000/user/www.cronj.com
 
+###### *Delete User Collection*
+
+	DELETE: http://localhost:8000/user
+
+			Example : http://localhost:8000/user
+
 
 ### Other Usefull Link
 
