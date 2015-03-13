@@ -1,5 +1,7 @@
+'use strict';
+
 var mongoose = require('mongoose'),
-    Schema = mongoose.Schema;
+  Schema = mongoose.Schema;
 
 /**
   * @module  User
@@ -7,7 +9,7 @@ var mongoose = require('mongoose'),
 */
 
 var UserSchema = new Schema({
-  
+
   /** 
     User ID. It can only contain string, is required and unique field which is indexed.
   */
@@ -18,13 +20,11 @@ var UserSchema = new Schema({
   */
   username : { type: String, required: true },
 
- 
-  
 });
 
 var user = mongoose.model('user', UserSchema);
 
 /** export schema */
 module.exports = {
-    User : user
+  User : user
 };

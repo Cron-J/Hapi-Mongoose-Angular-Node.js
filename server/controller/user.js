@@ -1,3 +1,5 @@
+'use strict';
+
 var Joi = require('joi'),
   Boom = require('boom'),
   User = require('../model/user').User,
