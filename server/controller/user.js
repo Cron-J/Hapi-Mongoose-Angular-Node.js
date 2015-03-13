@@ -61,7 +61,7 @@ exports.update = {
         user.username = request.payload.username;
         user.save(function (err, user) {
           if (!err) {
-            return reply(user).update('/user/' + user._id); // HTTP 201
+            return reply(user); // HTTP 201
           }
           if (11000 === err.code || 11001 === err.code) {
             return reply(Boom.forbidden("please provide another user id, it already exist"));
