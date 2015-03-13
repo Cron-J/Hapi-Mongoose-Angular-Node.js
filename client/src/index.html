@@ -1,13 +1,36 @@
-<!DOCTYPE html>
-<html lang="en" data-ng-app="app">
+<!doctype html>
+<html lang="en" data-ng-app="demo">
 <head>
-  <meta charset="utf-8" />
-  <title>Hapi-Mongoose-Angular</title>
-  <meta name="description" content="app, web app, responsive, responsive layout, admin, admin panel, admin dashboard, flat, flat ui, ui kit, AngularJS, ui route, charts, widgets, components" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-  
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Hapi file upload download</title>
+	<link rel="stylesheet" href="less/css/bootstrap.css">
+	<link rel="stylesheet" href="less/css/custom.css">
+	<link rel="stylesheet" href="less/css/growl.css">
+	<style>
+      body {
+        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+      }
+    </style>
+	<link href="less/css/bootstrap.css" rel="stylesheet">
 </head>
 <body>
-  Welcome!
+	<div growl></div>
+	<div class="navbar navbar-inverse navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<a class="brand" href="#">Hapi File upload Download</a>
+			</div>
+		</div>
+	</div>
+
+	<div data-ng-view class="container"></div>
+	<script src="bower_components/angular/angular.js"></script>
+	<script src="bower_components/angular-route/angular-route.js"></script>
+	<script src="bower_components/angular-resource/angular-resource.js"></script>
+	<script src="less/js/growl.js"></script>
+	<script src="app/app.js"></script>
+	<script src="app/userCtrl.js"></script>
 </body>
 </html>

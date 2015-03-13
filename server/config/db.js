@@ -1,7 +1,7 @@
 var Mongoose = require('mongoose'); 
 var config = require('./config');
 
-Mongoose.connect('mongodb://' + config.database.host + '/' + config.database.db);  
+Mongoose.connect(config.database.url);  
 var db = Mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error'));  
 db.once('open', function callback() {  

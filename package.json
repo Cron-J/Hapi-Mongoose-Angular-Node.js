@@ -18,6 +18,7 @@
     "mongoose",
     "angular"
   ],
+  "main":"server/server.js",
   "author": {
     "name": "gaurav gupta",
     "email": "gaurav_bng@hotmail.com"

@@ -1,7 +1,3 @@
-// Declare internals
-
-var internals = {};
-
 // Get session information endpoint
 
 exports.get = {
